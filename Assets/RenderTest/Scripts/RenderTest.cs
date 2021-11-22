@@ -45,8 +45,6 @@ namespace RenderTest
         [UnityEditor.MenuItem("RenderTest/PlaceTransparentQuads")]
         private static void PlaceTransparentQuads()
         {
-            Debug.Log("Place");
-            
             var selectedTransform = UnityEditor.Selection.transforms[0];
             
             int currentPositionModifier = 0;
